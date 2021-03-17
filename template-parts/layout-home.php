@@ -25,7 +25,7 @@
 
             <div class="entradas">
                 <?php $args = array(
-                    'cat' => array(3),
+                    'cat' => array(),
                     'posts_per_page' => 6,
                     'orderby' => 'date',
                     'order' => 'Asc'
@@ -66,7 +66,7 @@
                <h2 class="center">Latest post</h2>
            <div class="entradas">
                 <?php $args = array(
-                    'cat' => array(252),
+                    'cat' => array(),
                     'posts_per_page' => 6,
                     'orderby' => 'date',
                     'order' => 'DESC'
